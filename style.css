@@ -13,7 +13,7 @@ body{
 }
 
 #headSec h1{
-    background: rgba(232, 227, 227, 0.107);
+    background: rgba(232, 227, 227, 0.416);
     color: orange;
     padding: 1rem;
     text-align: center;
@@ -94,19 +94,27 @@ p{
 }
 @media screen and (max-width: 600px) {
         .container {
-            margin-left: 5%;
-            margin-right: 5%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+            margin-left: -1%;
+            margin-right: -1%;
         }
         #headSec h1 {
             font-size: 1.5rem;
         }
+        #headSec {
+            margin-left: -1rem;
+            margin-right: -1.5rem;
+            margin-top: -1.5rem;
+            padding: 1rem;
+        }
+        .inpClass{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         .inpClassChild1, .inpClassChild2 {
-            width: 40%;
+            width: 80%;
+            align-self: center;
         }
         input {
             font-size: 1rem;
@@ -115,7 +123,7 @@ p{
             font-size: 1.2rem;
         }
         button {
-            width: 100%;
+            width: 90%;
             padding: 1rem;
         }
         p {
