@@ -3,6 +3,8 @@
 ## 📌 Overview
 This **Income Tax Calculator** helps individuals calculate their total **income tax liability** under the **New Tax Regime for the financial year 2025-26** as per the latest Government of India regulations. It simplifies tax calculations, ensuring accuracy and helping users make informed financial decisions.
 
+⚡ Try it now and take control of your taxes! 👉 https://mithleshkr-pro.github.io/Tax-Calculator/
+
 ## 🎯 Features
 ✅ Calculates income tax as per **new tax slabs for FY 2025-26**  
 ✅ Easy-to-use interface for quick and **accurate tax computation**  
