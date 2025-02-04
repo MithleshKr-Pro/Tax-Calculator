@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section id="headSec">
+            <div class="navbar">
+                <h1>INCOME TAX Calculator (2025-26)</h1>
+            </div>
+        </section>
+        <section id="inpSection">
+            <h2>Key Highlights</h2>
+            <p>
+                No income tax is payable for those with annual income up to ₹12 lakh (through tax rebate). <br>
+                For salaried individuals under the new tax regime: <br>
+                Income up to ₹12.75 lakh will be tax-free (including standard deduction).
+                Standard deduction of ₹75,000 is available
+            </p>
+            <br>
+            <div class="inpClass">
+                <div class="inpClassChild1">
+                    <h2> Total Income</h2>
+                    <label for="salary">Basic Income : </label>
+                    <input type="number" value="0" id="salary" placeholder="Enter your Income " required>
+                    <br>
+                    <label for="allowance">Allowances :</label>
+                    <input type="number" value="0" id="allowance" placeholder="Enter your  Allowances" >
+                    <br>
+                    <label for="perks">perquisites : </label>
+                    <input type="number" value="0" id="perks" placeholder="Enter your perks " >
+                    <br>
+                    <label for="otherIncome">Other Income :</label>
+                    <input type="number" value="0" id="othIncome" placeholder="" >
+                </div>
+                <div class="inpClassChild2">
+                    <h2>Deductions</h2>
+                    <label for="ppf">PPF :</label>
+                    <input type="number" value="0" id="ppf" placeholder="" >
+                    <br>
+                    <label for="elss">ELSS :</label>
+                    <input type="number" value="0" id="elss" placeholder="" >
+                    <br>
+                    <label for="lifeInsure">Life Insurance :</label>
+                    <input type="number" value="0" id="lifeInsure" placeholder="" >
+                    <br>
+                    <label for="healthInsure">Health Insurance :</label>
+                    <input type="number" value="0" id="healthInsure"  placeholder="" >
+                    <br>
+                    <label for="savings">Savings Interest :</label>
+                    <input type="number" value="0" id="savings" placeholder="" >
+                    <br>
+                    <label for="hra">HRA Exemption :</label>
+                    <input type="number" value="0" id="hra" placeholder="" >
+                    <br>
+                    <label for="std">Standard Deductions :</label>
+                    <input type="number" value="0" id="std" placeholder="" >
+                    <br>
+                    <label for="others">Others :</label>
+                    <input type="number" value="0" id="others" placeholder="" >
+                    <br>
+                </div>
+            </div>
+            <button id="calculate">Pay to Government</button>
+        </section>
+        <section id="finalSec">
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

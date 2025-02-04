@@ -1,0 +1,94 @@
+body{
+    background: black;
+    color: white;
+}
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+    background: black;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headSec h1{
+    background: rgba(232, 227, 227, 0.107);
+    color: orange;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+
+#inpSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding-top: 2rem;
+    text-align: center;
+}
+.inpClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.inpClassChild1,.inpClassChild2{
+    width: 40%;
+    padding: 1rem;
+    background: rgba(232, 227, 227, 0.107);
+    margin: .5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+input::before{
+    content: "\20B9";
+}
+input{
+    border-radius: 15px;
+    padding: .5rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+}
+h2,h1{
+    font-size: 1.5rem;
+    color: orange;
+    text-align: center;
+}
+button{
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    background-color: lime;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    font: 1rem sans-serif;
+    font-weight: 900;
+    cursor: pointer;
+    width: max-content;
+    align-self: center;
+}
+p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.ansClass{
+    background: rgba(255, 255, 255, 0.103);
+    padding: .4rem;
+    margin: .5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+.ansClass h2{
+    font-size: 2rem;
+    color: rgb(183, 178, 178); 
+    margin: 5px;
+    
+}
